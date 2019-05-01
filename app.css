@@ -1,0 +1,76 @@
+body {
+  background-color: #F0F0F0;
+  min-height: 100%;
+}
+section{
+  min-height: 638px;
+  border-color: #e2e2e2;
+  border-style: solid;
+  border-width: 10px;
+  padding: 0;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+#header{
+    margin-left: 3%
+}
+#hd{
+    margin-bottom: 0%;
+}
+div h4{
+    margin-top: 0%;
+    color: #616161;
+}
+#form {
+    padding: 3%;
+    float: left;
+    background-color:#FFFFFF;
+    width: 43%;
+    min-height: 400px;
+}
+#tb{
+    border: 20px;
+}
+#table{
+    padding: 3%;
+    background-color:#FFFFFF;
+    float: right;
+    width: 43%;
+    min-height: 400px;
+}
+input[type=text], [type=date]{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: 	#ECECEC;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #434343;
+    color:#FFFFFF
+}
+table {
+    border: 0.25em solid #F0F0F0;
+    border-collapse: collapse;
+    border-radius: 25%;
+    width: 100%;
+}
+td {
+  padding: 2%;
+  text-align: left;
+}
+tr:nth-child(odd) {
+  background: #eee;
+}

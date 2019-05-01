@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Task Tracker</title>
+    <link href="app.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section>
+        <div id='header'>
+            <h1 id="hd">Task Tracker</h1>
+            <h4>v2.0</h4>
+        </div>
+        <div id='form'>
+            <form onsubmit="addTask()">
+                <h3>Create a Task</h3>
+                Task Name:<br>
+                <input type="text" name="taskName" id="taskName">
+                <br>
+                Date:<br>
+                <input type="date" name="date" id="date">
+                <br>
+                Assigned To:<br>
+                <input type="text" name="assignedTo" id="assignedTo">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div id='table'>
+        </div>
+    </section>
+    <script src=" app.js"></script>
+</body>
+
+</html>
